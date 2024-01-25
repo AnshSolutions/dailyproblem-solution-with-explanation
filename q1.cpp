@@ -28,3 +28,6 @@ int solveusingrecursion(string &text1,string &text2,int i,int j,vector<vector<in
      return ans;
     }
 };
+EXPLANATION
+in this problem we just need to figure out the length,here two case can be there in first ne if s1[i]==s2[j] then we just need to pass rest strings ,also add one
+if not then we need to get the max ofs1 string by passing it recursion and s2 string
